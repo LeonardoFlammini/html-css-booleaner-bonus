@@ -1,0 +1,114 @@
+/* reset  */
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+
+.center-box{
+  width: 80%;
+  margin: auto;
+}
+
+p{
+  text-align: justify;
+}
+
+header{
+  height: 100px;
+ background-image: url(../img/pattern.png);
+ background-color: #4FA0FB;
+ background-size: contain;
+ 
+}
+
+main, footer{
+  padding-left: 15px;
+}
+
+footer{
+  margin-top: 40px;
+}
+/* header  */
+
+#logo{
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* main  */
+.title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.author, #date, li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.author > .name{
+  color: #4FA0FB;
+}
+
+.caption{
+  width: 400px;
+  font-size: 0.8rem;
+}
+
+.primary-paragraph{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.highlighter{
+  background-color: yellow;
+}
+
+.list{
+  margin: 10px 10px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.column{
+  padding-right: 100px;
+  text-align: left;
+  color: white;
+}
+thead > tr{
+  background-color: #3DA9E5;
+}
+.row-lightblue{
+  background-color: #B1E5F2;
+}
+
+/* footer  */
+footer > span {
+  color: gray;
+}
+#img-1, #img-2{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 2rem;
+  color: white;
+}
+#img-1{
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+}
+#img-2{
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
+}
